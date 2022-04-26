@@ -1,0 +1,455 @@
+* {
+    font-family: "Montserrat Regular" !important;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+
+#text {
+    position: absolute;
+    z-index: 999;
+    top: 40%;
+    color: rgba(255, 255, 255, 0.541);
+    left: 15%;
+
+}
+
+#text p {
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+#text h5 {
+    margin-top: -15px;
+    font-family: Montserrat;
+
+}
+
+#main img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#main .img {
+    width: 30%;
+    height: 20%;
+}
+
+#main1 img {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 130%;
+    background-size: cover;
+}
+
+.about {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.541);
+    justify-content: center;
+    left: 28%;
+    top: 115%;
+}
+
+.about p {
+    margin-left: -23px;
+    font-size: 22px;
+}
+
+#ab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: rgb(53, 49, 49);
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.849);
+    position: absolute;
+
+
+}
+
+#bg2 {
+    width: 350px;
+    height: 420px;
+    background: white;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+
+
+}
+
+#nav {
+    display: flex;
+    color: rgba(255, 255, 255, 0.541);
+    justify-content: space-around;
+    font-size: 6px;
+    padding-left: 30%;
+    margin-top: 64px;
+    margin-right: 110px;
+    /* font-family: "Montserrat Regular" !important; */
+    font-weight: 500;
+
+
+}
+
+#Logo {
+    position: absolute;
+    height: 74px;
+    width: 162px;
+    margin-top: 64px;
+    margin-left: 100px;
+}
+
+.para {
+    position: absolute;
+    left: 40%;
+    top: 160%;
+    line-height: 25px;
+    color: white;
+}
+
+.para button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+}
+
+#line {
+    width: 10%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+}
+
+#line2 {
+    width: 10%;
+    height: 1px;
+    position: absolute;
+    left: 80%;
+    top: 20%;
+
+}
+
+#line3 {
+    width: 9%;
+    height: 1px;
+    position: absolute;
+    left: 82%;
+    top: 28%;
+    transform: rotate(-90deg);
+}
+
+#imgs {
+    width: 100%;
+    height: 50%;
+    background: #000;
+    top: 30%;
+    position: absolute;
+
+}
+
+#main2 {
+    width: 100%;
+    height: 100%;
+    background: rgb(10, 10, 10);
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.imgs {
+    display: flex;
+
+}
+
+.imgs img {
+    margin-left: 50%;
+    margin-top: 30%;
+    
+    width: 70%;
+    height: 60%;
+}
+
+#ac {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+
+    background-color: rgb(53, 49, 49);
+}
+
+.news {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.541);
+    justify-content: center;
+    left: 17%;
+    top: 210%;
+    overflow: hidden;
+
+}
+
+.news p {
+    margin-left: -23px;
+    font-size: 22px;
+}
+
+#imgA p {
+    font-size: 11px;
+    position: absolute;
+    left: 17%;
+}
+
+#imgB p {
+    font-size: 11px;
+    position: absolute;
+    left: 51%;
+}
+
+#imgC p {
+    font-size: 11px;
+    position: absolute;
+    right: 0%;
+}
+
+#imgl {
+    width: 25%;
+    /* position: ab?solute; */
+    margin-left: 37%;
+    margin-top: 10%;
+    color: aqua;
+}
+
+#imgm {
+    /* position: absolute; */
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 10%;
+    color: aqua;
+
+}
+
+#imgn {
+    /* position: absolute; */
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 10%;
+    color: aqua;
+
+}
+#para1 p{
+    margin-top: -1%;
+    margin-left: 7%;
+
+}
+#para2 p{
+    margin-top: -1%;
+    margin-left: 7%;
+
+}#para3 p{
+    margin-top: -1%;
+    margin-right: 4%;
+
+}
+#main3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(222, 240, 234);
+}
+.Services {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: rgba(14, 13, 13, 0.541);
+    justify-content: center;
+    left: 28%;
+    top: 310%;
+}
+
+.Services p {
+    margin-left: -23px;
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+}
+
+#sc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+#head {
+    position: absolute;
+    margin-top: 10%;
+    width: 30%;
+    height: 40%;
+    margin-left: 27%;
+    /* background-color: brown; */
+}
+#head h1{
+    color: #000;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 40px;
+}
+#head p{
+    color: #000;
+    /* position: absolute; */
+}
+#head i{
+    color: #000;
+    font-size:12px ;
+}
+#main4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(222, 240, 234);
+    
+    
+}
+.Contact{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: rgba(14, 13, 13, 0.541);
+    justify-content: center;
+    left: 20%;
+    top: 420%;
+}
+
+.Contact p{
+    margin-left: -23px;
+    font-size: 18px;
+    color: rgb(41, 40, 40);
+}
+
+#cu{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(102, 98, 98, 0.507);
+}
+.im img{
+    width: 4%;
+    height: 4%;
+    
+    margin-inline: 50%;
+    margin-top: 10%;
+}
+#p1 p{
+    margin-left: 56%;
+    color: #000;
+    margin-top: -2%;
+
+}
+#p2 p{
+    margin-left: 56%;
+    color: #000;
+    margin-top: -3%;
+}
+#main5{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+#head1 {
+     width: 68%;
+     margin-top: 15%;
+     height: 55%;
+     
+     position: absolute;
+     margin-left: 25%;
+     font-size: 40px;
+     
+
+}
+#head1 h1{
+    font-weight: 100;
+    
+    
+}
+#n1{
+    margin-top: 30%;
+    margin-left: 27%;
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    word-spacing: 80px;
+    font-size: 16px;
+    color: bisque;
+    
+}
+#image img{
+    width: 80%;
+    position: absolute;
+    height: 1px;
+    margin-top: 42%;
+    margin-left: 10%;
+    
+}
+#image2 img{
+    width: 9%;
+    position: absolute;
+    height: 1px;
+    margin-top: 41%;
+    margin-left: 83%;
+    transform: rotate(-90deg);
+
+}
+#nav2{
+    width: 80%;
+    height: 10%;
+    /* background-color: aqua; */
+    position: absolute;
+    word-spacing: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 44%;
+    font-size: 10px;
+    color: beige;
+
+}
+
+
